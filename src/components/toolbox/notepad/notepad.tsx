@@ -82,8 +82,7 @@ export function Notepad({ onClose, show }: NotepadProps) {
       />
 
       <p className={styles.counter}>
-        {characters} 个字符{characters !== 1 && 's'} • {words} 个字
-        {words !== 1 && 's'}
+        {characters} 个字{characters !== 1 && ''}
       </p>
     </Modal>
   );
