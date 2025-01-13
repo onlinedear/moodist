@@ -5,9 +5,9 @@ import { Item } from '../item';
 export function CountdownTimer() {
   return (
     <Item
-      href="https://timesy.app"
+      href="https://time.moodist.cn/"
       icon={<MdOutlineTimer />}
-      label="Countdown Timer"
+      label="倒计时器"
     />
   );
 }
