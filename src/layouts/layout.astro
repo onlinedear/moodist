@@ -8,10 +8,10 @@ interface Props {
   title?: string;
 }
 
-const title = Astro.props.title || 'Moodist: Ambient Sounds for Focus and Calm';
+const title = Astro.props.title || 'Moodist: 有助于集中注意力和保持平静的环境声音';
 const description =
   Astro.props.description ||
-  `Moodist is a free and open-source ambient sound generator featuring ${count()} carefully curated sounds. Create your ideal atmosphere for relaxation, focus, or creativity with this versatile tool.`;
+  `Moodist 是一款免费的白噪音生成器，具有 ${count()} 个精心挑选的声音。使用这款多功能工具，您可以创建理想的放松、专注或创意氛围。`;
 ---
 
 <!doctype html>
@@ -30,9 +30,9 @@ const description =
     <meta content={title} property="og:title" />
     <meta content={description} property="og:description" />
     <meta content="Moodist" property="og:site_name" />
-    <meta content="https://moodist.app" property="og:url" />
+    <meta content="https://moodist.cn" property="og:url" />
     <meta content="website" property="og:type" />
-    <meta content="https://moodist.app/og.png" property="og:image" />
+    <meta content="https://moodist.cn/og.png" property="og:image" />
 
     <meta content="summary_large_image" name="twitter:card" />
   </head>
