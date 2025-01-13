@@ -15,55 +15,55 @@ export function Features() {
   const features = [
     {
       Icon: BiMoney,
-      body: 'Immerse yourself in sound without spending a dime.',
+      body: '无需花一分钱即可沉浸在声音之中。',
       id: 'free-access',
-      label: 'Free Access',
+      label: '免费',
     },
     {
       Icon: BiUserCircle,
-      body: 'Dive right in, no sign-up hoops to jump through.',
+      body: '直接参与，无需经过任何注册环节。',
       id: 'no-registration',
-      label: 'No Registration',
+      label: '无需注册',
     },
     {
       Icon: BsSoundwave,
-      body: `Explore ${count} unique soundscapes, from rainforests to cityscapes.`,
+      body: `探索 ${count} 个独特的音景，从雨林到城市景观.`,
       id: 'diverse-sounds',
-      label: 'Diverse Sounds',
+      label: '多元声音',
     },
     {
       Icon: RxMixerHorizontal,
-      body: 'Craft your perfect soundscape by blending and adjusting sounds.',
+      body: '通过混合和调整声音来创造完美的音景。',
       id: 'customizable-mixes',
-      label: 'Customizable Mixes',
+      label: '可定制的混音',
     },
     {
       Icon: BiLogoGithub,
-      body: 'Contribute and collaborate, making the best even better.',
+      body: '贡献与合作，让最好的变得更好。',
       id: 'open-source',
-      label: 'Open-Source',
+      label: '开源',
       link: {
-        label: 'Source Code',
+        label: '开源代码',
         url: 'https://github.com/remvze/moodist',
       },
     },
     {
       Icon: BsStars,
-      body: 'Uninterrupted immersion, focus on the sounds, not the tech.',
+      body: '不间断的沉浸感，专注于声音，而不是技术。',
       id: 'seamless-experience',
-      label: 'Seamless Experience',
+      label: '沉浸体验',
     },
     {
       Icon: BsStars,
-      body: 'Spread the calm, easily share your customized sound blends.',
+      body: '传播平静，轻松分享您定制的声音混合。',
       id: 'share-selections',
-      label: 'Share Selections',
+      label: '分享',
     },
     {
       Icon: BsStars,
-      body: 'Lock in your favorite mixes for instant return to your sonic haven.',
+      body: '锁定您最喜爱的混音，立即返回您的声音天堂。',
       id: 'save-presets',
-      label: 'Save Presets',
+      label: '保存',
       soon: true,
     },
   ];
@@ -97,7 +97,7 @@ export function Features() {
                 </a>
               )}
 
-              {feature.soon && <div className={styles.soon}>Coming Soon</div>}
+              {feature.soon && <div className={styles.soon}>即将推出</div>}
             </div>
           ))}
         </div>
