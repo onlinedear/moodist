@@ -7,7 +7,7 @@ export function Donate() {
     <Item
       href="https://buymeacoffee.com/moodist"
       icon={<SiBuymeacoffee />}
-      label="Buy Me a Coffee"
+      label="给我买杯咖啡"
     />
   );
 }
