@@ -40,7 +40,7 @@ export function ShareLinkModal({ onClose, show }: ShareLinkModalProps) {
 
   const url = useMemo(() => {
     if (!isMounted)
-      return `https://moodist.app/?share=${encodeURIComponent(string)}`;
+      return `https://moodist.cn/?share=${encodeURIComponent(string)}`;
 
     return `${window.location.protocol}//${
       window.location.host
@@ -51,10 +51,9 @@ export function ShareLinkModal({ onClose, show }: ShareLinkModalProps) {
 
   return (
     <Modal show={show} onClose={onClose}>
-      <h1 className={styles.heading}>Share your sound selection!</h1>
+      <h1 className={styles.heading}>分享您选择的声音！</h1>
       <p className={styles.desc}>
-        Copy and send the following link to the person you want to share your
-        selection with.
+        复制以下链接并将其发送给您想要与之分享的人。
       </p>
       <div className={styles.inputWrapper}>
         <input readOnly type="text" value={url} />
