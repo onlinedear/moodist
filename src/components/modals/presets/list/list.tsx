@@ -19,7 +19,7 @@ export function List({ close }: ListProps) {
   return (
     <div className={styles.list}>
       <h3 className={styles.title}>
-        Your Presets {presets.length > 0 && `(${presets.length})`}
+        您的预设 {presets.length > 0 && `(${presets.length})`}
       </h3>
 
       {!presets.length && (
